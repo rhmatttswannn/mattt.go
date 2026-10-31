@@ -15,15 +15,14 @@ func main() {
 	fmt.Println("Tambah  a + b =", a+b)
 	fmt.Println("Tolak   a - b =", a-b)
 	fmt.Println("Kali    a * b =", a*b)
-	fmt.Println("Bahagi  a / b =", a/b)   // hasil integer
-	fmt.Println("Modulo  a % b =", a%b)   // baki pembahagian
+	fmt.Println("Bahagi  a / b =", a/b)
+	fmt.Println("Modulo  a % b =", a%b)
 
-	// Operator perbandingan
 	fmt.Println("\n========== OPERATOR PERBANDINGAN ==========")
-	fmt.Println("a == b :", a == b) // sama?
-	fmt.Println("a != b :", a != b) // tidak sama?
-	fmt.Println("a > b  :", a > b)  // lebih besar?
-	fmt.Println("a < b  :", a < b)  // lebih kecil?
+	fmt.Println("a == b :", a == b)
+	fmt.Println("a != b :", a != b)
+	fmt.Println("a > b  :", a > b)
+	fmt.Println("a < b  :", a < b)
 	fmt.Println("a >= b :", a >= b)
 	fmt.Println("a <= b :", a <= b)
 
@@ -34,14 +33,12 @@ func main() {
 
 	umur := 17
 
-	// Asas if/else
 	if umur >= 18 {
 		fmt.Println("Anda DEWASA, boleh memandu!")
 	} else {
 		fmt.Println("Anda BAWAH UMUR, belum boleh memandu.")
 	}
 
-	// if / else if / else
 	markah := 75
 
 	fmt.Printf("\nMarkah: %d → ", markah)
@@ -57,7 +54,6 @@ func main() {
 		fmt.Println("Gred E - Gagal")
 	}
 
-	// Operator logik: && (DAN), || (ATAU), ! (TIDAK)
 	fmt.Println("\n========== OPERATOR LOGIK ==========")
 	ada_ic := true
 	umur2 := 20
@@ -73,7 +69,6 @@ func main() {
 		fmt.Println("Boleh keluar (hujan ATAU ada payung)")
 	}
 
-	// Nested if (if dalam if)
 	fmt.Println("\n========== NESTED IF ==========")
 	jantina := "lelaki"
 	umur3 := 25
@@ -92,7 +87,6 @@ func main() {
 		}
 	}
 
-	// Switch - alternatif kepada if/else berganda
 	fmt.Println("\n========== SWITCH ==========")
 	hari := "Isnin"
 
